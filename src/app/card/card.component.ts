@@ -1,5 +1,5 @@
 import { UpperCasePipe } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
@@ -10,7 +10,6 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
 })
 export class CardComponent implements OnInit {
-  @Input() appointment: any;
   constructor() {}
 
   ngOnInit() {}

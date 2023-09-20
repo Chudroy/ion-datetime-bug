@@ -8,7 +8,7 @@
 
 <ion-content>
   <ion-datetime></ion-datetime>
-  <ng-container *ngFor="let appointment of appointments$ | async">
-    <app-card [appointment]="appointment"></app-card>
+  <ng-container *ngFor="let data of data$ | async">
+    <app-card></app-card>
   </ng-container>
 </ion-content>

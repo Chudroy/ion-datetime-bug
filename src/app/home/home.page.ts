@@ -11,7 +11,7 @@ import { CardComponent } from '../card/card.component';
   imports: [IonicModule, NgFor, AsyncPipe, UpperCasePipe, CardComponent],
 })
 export class HomePage {
-  appointments$ = of([1]).pipe(delay(3000));
+  data$ = of([1]).pipe(delay(3000));
 
   constructor() {}
 }
